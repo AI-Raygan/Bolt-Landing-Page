@@ -1,11 +1,11 @@
 body {
-    margin: 1.875rem 7.5rem 0 7.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
 
 
 #header{
+    margin: 1.875rem 7.5rem 0 7.5rem;
     display: flex;
     flex-direction: row;
     gap: 5rem;
@@ -18,5 +18,20 @@ body {
    font-weight: 300;
 }
 
+#copy {
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
 
 
+#hero{
+    margin: 1.875rem 0rem 0 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sideimg{
+    float: right;
+}
