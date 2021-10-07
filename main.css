@@ -18,19 +18,26 @@ body {
    font-weight: 300;
 }
 
-#copy {
+#green span {
     font-size: 4.5rem;
     font-weight: 600;
     line-height: 5rem;
+    color: white;
 }
 
+#green {
+    background-color: #34D186;
+    align-items: center;
+
+}
 
 #hero{
-    margin: 1.875rem 0rem 0 7.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+
 
 #sideimg{
     float: right;
