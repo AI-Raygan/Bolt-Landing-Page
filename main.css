@@ -1,0 +1,22 @@
+body {
+    margin: 1.875rem 7.5rem 0 7.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+
+#navitems {
+   display: flex;
+   gap: 1.5rem;
+   font-weight: 300;
+}
+
+
+
