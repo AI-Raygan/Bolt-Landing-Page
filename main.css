@@ -102,10 +102,20 @@ body {
 #signup {
     display: flex;
     flex-direction: column;
+    gap: 100px;
+    padding-top: 3rem;
+    padding-left: 20rem;
+
 }
 
-#signup span {
+#earn {
     position: absolute;
     font-size: 2rem;
-    font-weight: 500;
+}
+
+#microcopy {
+    position: absolute;
+    font-size: 1.125rem;
+    font-weight: 200;
+    padding-top: 4rem;
 }
