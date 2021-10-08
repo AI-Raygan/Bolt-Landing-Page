@@ -81,18 +81,27 @@ body {
 }
 
 #blue {
-    background-color: #4F5CD1;
+    background-color: #4f5cd1;
     color: white;
     height: 15.2rem;
 }
 
 
 #LCircle {
-    padding-left: 7rem;
+    position: absolute;
+    padding-left: 7.5rem;
 }
 
 #SCircle {
+    /* position: absolute; */
     padding-bottom: 11.2rem;
-    padding-left: 10rem;
+    float: right;
+    padding-right: 2rem;
+    
 }
 
+#signup {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 500;
+}
