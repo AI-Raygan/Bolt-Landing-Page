@@ -10,14 +10,17 @@ body {
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.5rem;
+    
 }
 
 
 #navitems {
    display: flex;
-   gap: 1.5rem;
-   font-weight: 300;
+   gap: 2rem;
+   font-weight: 400;
+   font-size: 17px;
+
 }
 
 #green {
@@ -26,19 +29,26 @@ body {
 
 
 #green div {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     font-weight: 600;
-    line-height: 5rem;
+    line-height: 5.5rem;
     color: white;
 }
 
 #copy{
-    padding-top: 100px;
+    padding-top: 10rem;
+    padding-left: 7.5rem;
 }
 
 #green {
-    background-color: #34D186;
+    background-color: #2DB775;
 
+}
+
+#subcopy{
+    padding-top: 2.5rem;
+    padding-left: 7.5rem;
+    color: white;
 }
 
 #hero{
@@ -50,4 +60,9 @@ body {
 
 #sideimg{
     float: right;
+}
+
+
+#stores {
+    padding-left: 7.5rem;
 }
