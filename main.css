@@ -66,3 +66,11 @@ body {
 #stores {
     padding-left: 7.5rem;
 }
+
+#hero div span{
+    padding-left: 7.5rem;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    font-weight: 400;
+}
