@@ -65,6 +65,7 @@ body {
 
 #sideimg{
     float: right;
+    overflow: hidden;
 }
 
 
@@ -84,20 +85,26 @@ body {
     background-color: #4f5cd1;
     color: white;
     height: 15.2rem;
+    overflow: hidden;
 }
 
 
 #LCircle {
     position: absolute;
     padding-left: 7.5rem;
+    height: auto;
+    max-height: 100%;
+
+    
 }
 
 #SCircle {
     padding-bottom: 11.2rem;
     float: right;
     padding-right: 2rem;
-    
+    max-height: 100%;
 }
+
 
 #signup {
     display: flex;
@@ -105,7 +112,6 @@ body {
     gap: 100px;
     padding-top: 3rem;
     padding-left: 20rem;
-
 }
 
 #earn {
@@ -119,3 +125,4 @@ body {
     font-weight: 200;
     padding-top: 4rem;
 }
+
