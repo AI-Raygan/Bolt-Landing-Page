@@ -102,6 +102,21 @@ body {
     padding-left: 21rem;
 }
 
+#signup {
+    float: right;
+    background-color: white; 
+    color: black;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 100rem;
+    margin-left: 60rem;
+    margin-top: 7rem;
+    position: absolute;
+}
+
 
 #LCircle {
     position: absolute;
@@ -119,14 +134,6 @@ body {
     max-height: 100%;
 }
 
-
-#signup {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding-top: 3rem;
-    padding-left: 20rem;
-}
 
 #earn {
     position: absolute;
