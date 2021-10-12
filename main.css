@@ -86,6 +86,20 @@ body {
     color: white;
     height: 15.2rem;
     overflow: hidden;
+    position: relative;
+}
+
+#earn {
+    position: absolute;
+    padding-top: 5.1rem;
+    padding-left: 21rem;
+    font-weight: 600;
+}
+
+#sub-earn {
+    position: absolute;
+    padding-top: 8.5rem;
+    padding-left: 21rem;
 }
 
 
