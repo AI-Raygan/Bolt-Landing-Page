@@ -147,3 +147,12 @@ body {
     padding-top: 4rem;
 }
 
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 12rem;
+    padding-top: 4rem;
+    padding-left: 7.5rem;
+}
+
